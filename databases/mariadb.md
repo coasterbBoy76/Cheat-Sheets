@@ -7,6 +7,7 @@ sudo apt install mariadb-server
 sudo mysql_secure_installation
 ```
 
+
 ## Access Database from outside
 Open `/etc/mysql/mariadb.conf.d/50-server.cnf` and change the `bind-address` to:
 ```
