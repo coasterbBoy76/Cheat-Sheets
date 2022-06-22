@@ -31,3 +31,24 @@ GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
 ```mysql
 FLUSH PRIVILEGES;
 ```
+
+## Update MariaDB User Password
+1. Log in using Root account
+```
+mariadb -u root -p
+```
+
+2. Switch to mysql databsae
+```
+MariaDB [(none)]> use mysql;
+```
+
+3. Update user password
+```
+MariaDB [mysql]> ALTER USER 'user'@'localhost' IDENTIFIED BY 'new_password';
+```
+
+4. Flush Permissions
+```
+MariaDB [mysql]> FLUSH PRIVILEGES;
+```
