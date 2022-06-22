@@ -35,7 +35,7 @@ FLUSH PRIVILEGES;
 ## Update MariaDB User Password
 1. Log in using Root account
 ```
-mariadb -u root -p
+mysql -u root -p
 ```
 
 2. Switch to mysql databsae
