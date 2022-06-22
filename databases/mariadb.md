@@ -16,7 +16,7 @@ bind-address = 0.0.0.0
 
 ...
 ```
-## Create Administrative User.
+## Create Administrative User
 1. Create a new user `newuser` for the host `localhost` with a new `password`:
 ```mysql
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
