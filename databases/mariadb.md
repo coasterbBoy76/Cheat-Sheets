@@ -56,6 +56,8 @@ MariaDB [mysql]> FLUSH PRIVILEGES;
 
 
 # Adjusting max connections
+
+## Adjusting Max Connections for Maria DB
 1. Log into Maria Db using Root
 
 The following command will the current default max connections.
