@@ -53,7 +53,9 @@ MariaDB [mysql]> ALTER USER 'user'@'localhost' IDENTIFIED BY 'new_password';
 MariaDB [mysql]> FLUSH PRIVILEGES;
 ```
 
-## Adjusting max connections
+
+
+# Adjusting max connections
 1. Log into Maria Db using Root
 
 The following command will the current default max connections.
@@ -66,6 +68,7 @@ The following command will increase the MAZ connections without a restart. Once 
 ```
 set global max_connections = 200;
 ```
+
 
 2A. To permanetly increase max connections, open <i>my.cnf</i> file
 ```
