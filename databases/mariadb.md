@@ -77,6 +77,8 @@ set global max_connections = 200;
 2A. To permanetly increase max connections, open <i>my.cnf</i> file
 ```
 $ sudo vim /etc/my.cnf
+-or-
+$ sudo vim /etc/my.cnf.d
 ```
 
 Add the followinf line under [mysqld]
@@ -87,4 +89,6 @@ max_connections = 200
 Restart Maria DB service
 ```
 sudo service myslq restart
+-or-
+sudo service mariadb restart
 ```
